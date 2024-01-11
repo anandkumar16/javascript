@@ -1,13 +1,13 @@
-const user = {
-    username: "hitesh",
-    price: 999,
+// const user = {
+//     username: "hitesh",
+//     price: 999,
 
-    welcomeMessage: function() {
+//     welcomeMessage: function() {
       // console.log(`${this.username} , welcome to website`);
       //  console.log(this);
-    }
+//     }
 
-}
+// }
 
 //user.welcomeMessage()
 // user.username = "sam"
@@ -33,11 +33,34 @@ const user = {
 //     return num1 + num2
 // }
 
- const addTwo = (num1, num2) =>  num1 + num2
+// const addTwo = (num1, num2) =>  num1 + num2
 
 // const addTwo = (num1, num2) => ( num1 + num2 )
 
 //  const addTwo = (num1, num2) => ({username: "hitesh"})
 
-console.log(addTwo(5,6))
+//console.log(addTwo(5,6))
 // console.log(addTwo(3, 4))
+
+// console.log(addOne(5));  possible
+// function addOne(num){
+//     return num+1;
+// }
+
+// console.log(addTwo(6)) //not possible
+// const addTwo = function(num){
+//   return num+2;
+// }
+
+
+
+// const addTwo = (num1, num2) => {
+//     return num1 + num2
+// }
+
+//const addTwo = (num1, num2) =>   (num1 + num2)
+
+// const addTwo = (num1, num2) =>   { return num1 + num2}
+
+
+// console.log(addTwo(12,10));
